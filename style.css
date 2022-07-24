@@ -1,0 +1,55 @@
+.menu {
+ display: flex;
+ text-align: center;
+ justify-content: space-around;
+
+}
+.servicios{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    
+
+}
+
+.lista{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    padding-left: 4rem;
+}
+.seguridadhigiene{
+width: 25%;
+padding: 10px;
+}
+.gestionambiental{
+width: 25%;
+padding: 10px;
+}
+.sistemadegestion{
+width: 25%;
+padding: 10px;
+}
+.covid19{
+width: 25%;
+padding: 10px;
+}
+
+.nosotros{
+
+text-align: center;
+}
+
+.acerca{
+    padding-right: 30rem;
+    padding-left: 30rem;
+}
+.btncontacto{
+    width: 100px;
+    
+}
