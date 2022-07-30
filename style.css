@@ -1,106 +1,111 @@
 .menu {
- display: flex;
- text-align: center;
- justify-content: space-around;
-
-}
-.servicios{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
 }
 
-.lista{
-    margin-top: 2rem;
-    display: flex;
-    justify-content: space-between;
+.servicios {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
-li{
-    list-style: none;
-    padding-left: 4rem;
+.lista {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
 }
 
-.seguridadhigiene{
-display: flex;
-justify-content: center;
-padding: 10px;
+li {
+  list-style: none;
+  padding-left: 4rem;
 }
 
-.gestionambiental{
-display: flex;
-padding: 10px;
+.seguridadhigiene {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }
 
-.sistemadegestion{
-display: flex;
-padding: 10px;
+.gestionambiental {
+  display: flex;
+  padding: 10px;
 }
 
-.covid19{
-display: flex;
-padding: 10px;
-}
-.servicio{
-    padding: 3rem;
+.sistemadegestion {
+  display: flex;
+  padding: 10px;
 }
 
-.nosotros{
-
-text-align: center;
+.covid19 {
+  display: flex;
+  padding: 10px;
 }
 
-.acerca{
-    padding-right: 30rem;
-    padding-left: 30rem;
-}
-.contactanos{
-    padding: 20px;
-    position: relative;
-    top: 1.2rem;
-    height: 70px;
-    color: white;
-    text-align: center;
-    background-color: rgb(73, 69, 69);
-}
-.imgservicios{
-    padding: 3rem;
-    height: 200px;
-    width: 400px;
+.servicio {
+  padding: 3rem;
 }
 
-.contacto{
-    padding-bottom: 1.5rem;
-    background-color: rgb(73, 69, 69);
-    color: white;
-    display: flex;
-    text-align: center;
-    justify-content: space-around;
+.nosotros {
+  text-align: center;
 }
-.socials{
-    color: white;
-    list-style: none;
-    font-size: 2rem;
-    padding-right: 4rem;
+
+.acerca {
+  padding-right: 30rem;
+  padding-left: 30rem;
 }
-.socials:hover{
-cursor: pointer;
-color: #3ac52a;
+
+.contactanos {
+  padding: 20px;
+  position: relative;
+  top: 1.2rem;
+  height: 70px;
+  color: white;
+  text-align: center;
+  background-color: rgb(73, 69, 69);
 }
-footer{
-    text-align: center;
-    height: 40px;
-    width: 100%;
-    background-color: black;
-    color: white;
-    position: relative;
-    bottom: 1.5rem;
-    margin: 0 0 20px;
+
+.imgservicios {
+  padding: 3rem;
+  height: 200px;
+  width: 400px;
 }
-footer p{
-    position: relative;
-    top: 10px;
+
+.contacto {
+  padding-bottom: 1.5rem;
+  background-color: rgb(73, 69, 69);
+  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
 }
+
+.socials {
+  color: white;
+  list-style: none;
+  font-size: 2rem;
+  padding-right: 4rem;
+}
+
+.socials:hover {
+  cursor: pointer;
+  color: #3ac52a;
+}
+
+footer {
+  text-align: center;
+  height: 40px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  position: relative;
+  bottom: 1.5rem;
+  margin: 0 0 20px;
+}
+
+footer p {
+  position: relative;
+  top: 10px;
+}/*# sourceMappingURL=style.css.map */
