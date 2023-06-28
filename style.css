@@ -1,5 +1,29 @@
 @import url("app.js");
 
+@keyframe fade{     
+  from {         
+      opacity: 0;     
+  }     
+  to {         
+      opacity: 1;     
+  } 
+} 
+@keyframes slide-up {  
+  from {
+      transform: translateY(80px);
+  }  
+  to {  
+      transform: translateY(0);     
+  } 
+}
+@keyframes slide-down {  
+  from {
+      transform: translateY(-70px);
+  }  
+  to {  
+      transform: translateY(0);     
+  } 
+}  
 .h2-centrados{
   padding: 0 15% 0 15%;
 }
@@ -86,6 +110,27 @@ header{
   font-weight: 700;
   font-size: 13px;
   letter-spacing: 1.4px;
+  animation: fade 1s ease-in, slide-down 1s ease-in-out;
+}
+header .logo{
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+header .logo:hover {
+-webkit-transform: scale(0.90);
+transform: scale(0.90);
+}
+
+
+footer a{
+  transition: transform 0.3s ease;
+}
+footer a:hover{
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+main{
+  animation: fade 1s ease-in, slide-up 1s ease-in-out;
 }
 .menu {
   display: flex;
@@ -135,7 +180,12 @@ hr{
 }
 .servicio a:hover{
 color: white;
-background-color: #37375d;
+background-color: #242543;
+-webkit-transform: scale(0.95);
+transform: scale(0.95);
+}
+.servicio a{
+  transition: transform 0.3s ease;
 }
 
 .botonconsulta{
